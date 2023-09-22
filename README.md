@@ -6,6 +6,7 @@ both backend and frontend are stored in separated repositories and added to main
 
 to initialize application you should run these commands while current working directory (CWD) is TestTask
 ```
+git submodule init
 git submodule update
 npm install --prefix ./TestTask-backend
 npm install --prefix ./TestTask-frontend
