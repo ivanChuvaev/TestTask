@@ -8,16 +8,16 @@ to initialize application you should run these commands while current working di
 ```
 git submodule init
 git submodule update
-npm install --prefix ./TestTask-backend
-npm install --prefix ./TestTask-frontend
+cd ./TestTask-backend && npm i && cd ..
+cd ./TestTask-frontend && npm i && cd ..
 ```
 to run application you should run both backend and frontend, they will block terminal so you need to run them in separate terminals or run them concurrently
 
 command that will run backend, while CWD is TestTask
 ```
-npm start --prefix ./TestTask-backend
+cd ./TestTask-backend && npm start
 ```
 command that will run frontend, while CWD is TestTask
 ```
-npm run dev --prefix ./TestTask-frontend
+cd ./TestTask-frontend && npm run dev
 ```
