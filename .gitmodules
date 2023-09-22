@@ -1,0 +1,6 @@
+[submodule "TestTask-frontend"]
+	path = TestTask-frontend
+	url = git@github.com:ivanChuvaev/TestTask-frontend.git
+[submodule "TestTask-backend"]
+	path = TestTask-backend
+	url = git@github.com:ivanChuvaev/TestTask-backend.git
