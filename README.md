@@ -14,7 +14,7 @@ to run application you should run both backend and frontend, they will block ter
 
 command that will run backend, while CWD is TestTask
 ```
-npm start --prefix ./TestTask-backend &
+npm start --prefix ./TestTask-backend
 ```
 command that will run frontend, while CWD is TestTask
 ```
